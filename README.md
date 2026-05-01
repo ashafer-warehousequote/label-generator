@@ -53,7 +53,7 @@ Steps:
 
 - Push your code to a GitHub repository.
 - In the repo settings, enable GitHub Pages with "GitHub Actions" as the source (first run will also set it up automatically).
-- The workflow at [.github/workflows/gh-pages.yml](.github/workflows/gh-pages.yml) builds on pushes to `main` and publishes `dist/`.
+- The workflow at [.github/workflows/deploy.yml](.github/workflows/deploy.yml) builds on pushes to `main` and publishes `dist/`.
 
 Notes:
 
